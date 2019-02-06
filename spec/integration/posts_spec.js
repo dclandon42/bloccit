@@ -7,7 +7,7 @@ const Topic = require("../../src/db/models").Topic;
 const Post = require("../../src/db/models").Post;
 
 describe("routes : posts", () => {
-
+ 
   beforeEach((done) => {
     this.topic;
     this.post;
