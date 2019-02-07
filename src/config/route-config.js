@@ -1,13 +1,13 @@
 module.exports = {
   init(app){
     const staticRoutes = require("../routes/static");
-    const postRoutes = require("../routes/posts");
     const topicRoutes = require("../routes/topics");
-    const advertisementRoutes = require("../routes/advertisements");
+    const advertRoutes = require("../routes/adverts");
+    const postRoutes = require("../routes/posts");
 
     app.use(staticRoutes);
     app.use(topicRoutes);
-    app.use(advertisementRoutes);
+    app.use(advertRoutes);
     app.use(postRoutes);
   }
 }
